@@ -82,7 +82,7 @@ section {
 section {
   &.first {
     color: #ffffff;
-    background-image: url("https://images.unsplash.com/photo-1604928141064-207cea6f571f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3028&q=80");
+    background-image: url("https://images.unsplash.com/photo-1604928141064-207cea6f571f");
     h1 {
       position: relative;
       margin-top: 20%;
@@ -100,7 +100,7 @@ section {
   &.gallery {
     ul {
       display: grid;
-      grid-template-rows: repeat(4, 9%);
+      grid-template-rows: repeat(4, 8.8%);
       grid-template-columns: repeat(4, 1fr);
       list-style: none;
     }
@@ -111,14 +111,33 @@ section {
   }
 
   &.none {
-    * {
-      position: relative;
-    }
     &:before {
       background-color: transparent;
     }
   }
 
+  &.q {
+    h2 {
+      font-size: 3.6em;
+    }
+    ol {
+      display: grid;
+      margin-top: 10%;
+      row-gap: 10%;
+    }
+    li {
+      font-size: 2.8em;
+    }
+  }
+
+  &.a {
+    h2 {
+      font-size: 5.4em;
+    }
+    p {
+      font-size: 2.8em;
+    }
+  }
 
 }
 
@@ -134,7 +153,7 @@ img {
 section {
   &.emblem {
     div figure {
-      width: 180%;
+      width: 190%;
     }
   }
 }

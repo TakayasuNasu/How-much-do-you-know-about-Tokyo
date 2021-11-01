@@ -81,7 +81,7 @@ section {
 
 section.first {
   color: #ffffff;
-  background-image: url("https://images.unsplash.com/photo-1604928141064-207cea6f571f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3028&q=80");
+  background-image: url("https://images.unsplash.com/photo-1604928141064-207cea6f571f");
 }
 
 section.first h1 {
@@ -103,8 +103,8 @@ section.first ul {
 section.gallery ul {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (9%)[4];
-      grid-template-rows: repeat(4, 9%);
+  -ms-grid-rows: (8.8%)[4];
+      grid-template-rows: repeat(4, 8.8%);
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   list-style: none;
@@ -116,12 +116,31 @@ section.gallery img {
      object-fit: cover;
 }
 
-section.none * {
-  position: relative;
-}
-
 section.none:before {
   background-color: transparent;
+}
+
+section.q h2 {
+  font-size: 3.6em;
+}
+
+section.q ol {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10%;
+  row-gap: 10%;
+}
+
+section.q li {
+  font-size: 2.8em;
+}
+
+section.a h2 {
+  font-size: 5.4em;
+}
+
+section.a p {
+  font-size: 2.8em;
 }
 
 div.flex {
@@ -136,6 +155,6 @@ img {
 }
 
 section.emblem div figure {
-  width: 180%;
+  width: 190%;
 }
 /*# sourceMappingURL=theme.css.map */
