@@ -32,6 +32,7 @@ math: katex
 - ![14](./gallery/14.jpg)
 - ![15](./gallery/15.jpg)
 - ![16](./gallery/16.jpg)
+- ![17](./gallery/17.jpg)
 
 
 ---
@@ -60,6 +61,8 @@ math: katex
 
 <!-- _class: a -->
 
+
+
 ## A. 1 aaa
 
 hogefuga
@@ -70,7 +73,7 @@ hogefuga
 
 <!-- _class: youtube none -->
 
-## Top 5 Things to do in Tokyo | japan-guide.com
+## Top 5 Things to do in Tokyo
 
 <figure>
   <iframe width="950" height="530" src="https://www.youtube.com/embed/Hr_TbL5ejuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -48,7 +48,10 @@ section {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  * {
+    position: relative;
   }
 }
 
@@ -70,12 +73,6 @@ h3 {
 p,
 li {
   font-size: 1.8em;
-}
-
-li {
-  & + li {
-    margin-top: 2em;
-  }
 }
 
 section {
@@ -103,10 +100,13 @@ section {
   &.gallery {
     ul {
       display: grid;
-      grid-template-rows: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 9%);
       grid-template-columns: repeat(4, 1fr);
       list-style: none;
-      max-height: 100%;
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
     }
   }
 
